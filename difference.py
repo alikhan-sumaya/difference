@@ -1,0 +1,10 @@
+'''a={2,3,4,5}
+b={4,7,8}
+print(a.difference(b),a,b)
+print(a.difference_update(b),a,b)
+print(a-b)'''
+a={2,3,4,5}
+b={4,7,8}
+print(a.symmetric_difference(b),a,b)
+print(a^b)
+print(a.symmetric_difference_update(b),a,b)
